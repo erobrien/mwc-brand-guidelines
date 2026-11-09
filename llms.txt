@@ -1,0 +1,58 @@
+# Men's Wellness Centers (MWC) brand rules for LLMs and tools
+
+> v2.0, Nov 8, 2026. Source of truth: https://menswellnesscenters.com (live site). Logo files only: https://mwcbrand.com/logo. Ignore all other mwcbrand.com color, font and voice guidance.
+
+## Identity
+- Name: Men's Wellness Centers (MWC). Three in-person men's health clinics in Virginia: Richmond (Glen Allen), Newport News, Virginia Beach.
+- Core services: Testosterone therapy (TRT), ED treatment, medical weight loss.
+- Say "members" (not patients) and "clinic" (not office). Eric O'Brien is President (never founder).
+
+## Must follow
+- First visit: "just $60" for a 60-minute, in-person visit with a licensed provider. Never say free or no-cost.
+- Never name medications. Never include PHI. No guarantees, cure claims or pound-loss promises. Substantiate every claim.
+- Pair treatment with "when medically appropriate".
+- No testimonials, member stories or member photos without written consent and a release.
+- No em dashes. Use periods, commas or colons.
+- SMS: honor STOP and DND; send 9am to 8pm ET.
+
+## CTA
+- Primary: "Book My Appointment" (orange pill). Booking: https://book.menswellnesscenters.com
+- Secondary: "Call Now" 866-344-4955 (main line; verify before use).
+- Clinic lines: Richmond 804-346-4636, Newport News 757-806-6263, Virginia Beach 757-612-4428.
+
+## Locations
+- Richmond: 4050 Innslake Dr, Suite 360, Glen Allen, VA 23060-3323
+- Newport News: 827 Diligence Drive, Suite 206, Newport News, VA 23606-4268
+- Virginia Beach: 996 First Colonial Rd, Virginia Beach, VA 23454-3175
+
+## Color (from site CSS)
+- Primary Navy #0B1029 (text on light, footer, logo)
+- Page Navy #080D1F (header, hero, dark sections)
+- Raised Navy #161B3A (panels on dark)
+- Accent Orange #E8670A (CTAs, eyebrows, icons only; not body text)
+- White #FFFFFF, Cream #F5F3F0, Off-White #F9FBFF (backgrounds)
+- Border #D9DEF0, Muted text #5D6878, small orange text on white #A94700
+
+## Type (from site CSS)
+- Poppins only. Body 16px/1.6 weight 400. H1 44px weight 500. H2 40px weight 700. H3 16 to 23px weight 700.
+- Sentence case headlines. Uppercase only for 12px orange eyebrows tracked 0.14em.
+
+## Components
+- Primary button: orange #E8670A pill (radius 999px), white 19px bold label, min height 48px.
+- Cards: white, 1px #D9DEF0 border, 12px radius, soft navy shadow.
+- Layout: 1240px max width, 20px gutters, sections 64 to 104px vertical padding.
+
+## Voice
+- Clear, calm, process-first, clinically careful, private, local.
+- Examples: "A full hour, face to face." "Your labs, explained." "Care you can understand." "Treatment is offered only when medically appropriate." "No referral needed."
+- Avoid: hype, ALL CAPS headlines, "guys", "Click here", "Learn more".
+
+## Imagery
+- Real clinic and care team photos first; candid men in everyday Virginia settings; local landmarks; natural light. No before and after, no needles or products, no members without a release.
+
+## Logo
+- Wordmark and "m" bug from https://mwcbrand.com/logo. Navy #0B1029, white, or black only. Never retype, recolor or distort. Min width 120px (wordmark), 16px (bug).
+
+## Full files
+- mwc-brand-guidelines.md (full guide)
+- brand.json (tokens and rules)

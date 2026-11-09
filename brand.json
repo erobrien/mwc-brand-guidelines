@@ -1,0 +1,454 @@
+{
+  "$schema_note": "MWC brand tokens and rules. v2.0, current.",
+  "version": "2.0",
+  "date": "2026-11-08",
+  "status": "current",
+  "reference": {
+    "website": "https://menswellnesscenters.com/",
+    "build": "Next.js on Vercel, project mwc-web-next",
+    "logo_source": "https://mwcbrand.com/logo",
+    "note": "Website is the single source for everything except the logo. Ignore other mwcbrand.com guidance."
+  },
+  "identity": {
+    "name": "Men's Wellness Centers",
+    "short_name": "MWC",
+    "descriptor": "In-person men's health clinics in Virginia",
+    "core_services": [
+      "Testosterone therapy (TRT)",
+      "ED treatment",
+      "Medical weight loss"
+    ],
+    "audience_term": "members",
+    "place_term": "clinic",
+    "president": "Eric O'Brien, President",
+    "medical_director": "Dr. Kristen Holtz, D.O., Physician Medical Director",
+    "trust_line": {
+      "text": "10,000+ Men Served Since 2015 · LegitScript Certified",
+      "source": "https://menswellnesscenters.com/ (top bar)",
+      "note": "Keep substantiation on file"
+    }
+  },
+  "logo": {
+    "source": "https://mwcbrand.com/logo",
+    "description": "Custom wordmark: lowercase 'men's' in a heavy rounded display face over tracked uppercase 'WELLNESS CENTERS'. Bug: lowercase rounded 'm'.",
+    "files": {
+      "wordmark_navy": [
+        "wordmark_navy.svg",
+        "print_wordmark_navy_on_trans_4000x920.png"
+      ],
+      "wordmark_white": [
+        "wordmark_white.svg",
+        "print_wordmark_white_on_trans_4000x920.png"
+      ],
+      "wordmark_black": [
+        "wordmark_black.svg"
+      ],
+      "bug_navy": [
+        "m_icon_navy.svg",
+        "m_1024_navy_on_transparent.png"
+      ],
+      "bug_white": [
+        "m_icon_white.svg",
+        "m_1024_white_on_transparent.png"
+      ],
+      "bug_black": [
+        "m_icon_black.svg"
+      ],
+      "print_pack": "MWC-print-vectors.zip"
+    },
+    "logo_color": "#0B1029",
+    "allowed_colors": [
+      "navy #0B1029",
+      "white",
+      "black (one-color print only)"
+    ],
+    "clear_space": "cap height of the lowercase m on all sides",
+    "min_size": {
+      "wordmark": "120px / 1.25in wide",
+      "bug": "16px / 0.2in"
+    },
+    "bug_use": "favicons, app icons, avatars, embroidery, spaces under 96px wide",
+    "site_usage": {
+      "header": "white wordmark, 180px wide, on navy",
+      "footer": "white wordmark, 240px wide",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "never": [
+      "retype the name as a logo",
+      "recolor",
+      "rotate",
+      "skew or stretch",
+      "add effects, gradients or CSS filters"
+    ]
+  },
+  "color": {
+    "primary_navy": {
+      "hex": "#0B1029",
+      "css_var": "--mwc-primary-navy",
+      "role": "main text on light, footer, solid navy sections, logo",
+      "uses": 139,
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "page_navy": {
+      "hex": "#080D1F",
+      "css_var": "--mwc-page-navy (aliases --mwc-navy, --mwc-ink, --mwc-text)",
+      "role": "header, home hero, stats band, dark sections",
+      "uses": 35,
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "raised_navy": {
+      "hex": "#161B3A",
+      "css_var": "--mwc-raised-navy (alias --mwc-navy-light)",
+      "role": "raised panels on dark",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "accent_orange": {
+      "hex": "#E8670A",
+      "css_var": "--mwc-accent (alias --mwc-orange)",
+      "role": "primary CTA, eyebrows, icons, accents",
+      "uses": 86,
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "white": {
+      "hex": "#FFFFFF",
+      "css_var": "--background",
+      "role": "page and card background, text on navy",
+      "uses": 267,
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "cream": {
+      "hex": "#F5F3F0",
+      "css_var": "--mwc-cream",
+      "role": "warm section and inner hero background",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "off_white": {
+      "hex": "#F9FBFF",
+      "css_var": "--mwc-off-white",
+      "role": "cool alternate section background",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "location_gray": {
+      "hex": "#F5F6F8",
+      "css_var": "--mwc-location-gray",
+      "role": "location page panels",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "light_border": {
+      "hex": "#D9DEF0",
+      "css_var": "--mwc-light-border",
+      "role": "card borders, dividers",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "muted_text": {
+      "hex": "#5D6878",
+      "css_var": "--mwc-muted",
+      "role": "secondary text on light",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "footer_text": {
+      "hex": "#9CA3AF",
+      "role": "footer links on navy",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "orange_dark": {
+      "hex": "#BF5200",
+      "role": "focus outlines, outline hover border",
+      "source": "/_next/static/immutable/chunks/0p4hqzqjg21px.css"
+    },
+    "orange_text": {
+      "hex": "#A94700",
+      "role": "small orange text links on white",
+      "source": "/_next/static/immutable/chunks/0p4hqzqjg21px.css"
+    }
+  },
+  "contrast": {
+    "white_on_primary_navy": 18.74,
+    "white_on_orange": 3.29,
+    "orange_on_page_navy": 5.86,
+    "muted_on_white": 5.65,
+    "orange_text_on_white": 5.85,
+    "rule": "White on #E8670A only for 19px bold or larger labels. Use #A94700 for small orange text on white."
+  },
+  "typography": {
+    "family": "Poppins",
+    "fallback": "\"Poppins Fallback\", Arial, sans-serif",
+    "weights": [
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css",
+    "body": {
+      "size": "16px",
+      "line_height": 1.6,
+      "weight": 400
+    },
+    "h1": {
+      "size_desktop": "44px",
+      "size_mobile": "30px",
+      "weight": 500,
+      "line_height": "1.12-1.15",
+      "letter_spacing": "-0.022em to -0.035em",
+      "source": "/_next/static/immutable/chunks/2by02y4iijdyv.css"
+    },
+    "h2": {
+      "size_desktop": "40px",
+      "size_mobile": "30px",
+      "weight": 700,
+      "line_height": 1.12,
+      "letter_spacing": "-0.022em"
+    },
+    "h3": {
+      "size": "16-23px",
+      "weight": 700,
+      "line_height": "1.25-1.3"
+    },
+    "eyebrow": {
+      "size": "12px",
+      "weight": 600,
+      "case": "uppercase",
+      "letter_spacing": "0.14em",
+      "color": "#E8670A"
+    },
+    "nav": {
+      "size": "16px",
+      "weight": 500
+    },
+    "headline_case": "sentence case; uppercase only for small tracked labels",
+    "italics": "not used for emphasis"
+  },
+  "layout": {
+    "content_width": "1240px",
+    "reading_width": "860px",
+    "gutter": "20px",
+    "section_padding": "clamp(64px, 7vw, 104px)",
+    "grid_gap": "1.5rem",
+    "card_padding": "1.5rem mobile / 1.75rem desktop",
+    "spacing_unit": "0.25rem",
+    "header_min_height": "70px, sticky, navy",
+    "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+  },
+  "components": {
+    "button_primary": {
+      "class": ".mwc-button",
+      "background": "#E8670A",
+      "border": "2px solid #E8670A",
+      "color": "#FFFFFF",
+      "radius": "999px",
+      "font_size": "19px",
+      "font_weight": 700,
+      "min_height": "48px",
+      "padding": "11px 22px",
+      "hover": "translateY(-1px)",
+      "transition": "0.2s",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "button_outline": {
+      "class": ".mwc-button--outline",
+      "background": "transparent",
+      "color": "#E8670A",
+      "hover": "orange fill, white text"
+    },
+    "button_light": {
+      "class": ".mwc-button--light",
+      "background": "transparent",
+      "color": "#FFFFFF",
+      "border": "#FFFFFF",
+      "hover": "white fill, navy text"
+    },
+    "phone_pill": {
+      "class": ".mwc-header__phone",
+      "border": "1px solid #FFFFFF85",
+      "radius": "999px",
+      "font_size": "14px",
+      "font_weight": 500
+    },
+    "card": {
+      "class": ".mwc-card",
+      "background": "#FFFFFF",
+      "border": "1px solid #D9DEF0",
+      "radius": "12px",
+      "shadow": "0 1px 4px #12196114",
+      "source": "/_next/static/immutable/chunks/3hoi8t9pp9k0e.css"
+    },
+    "cta_shadow": "0 8px 28px #E8670A6B",
+    "dropdown_shadow": "0 8px 24px #080D1F1F",
+    "radius_scale": {
+      "pill": "999px",
+      "lg": "16px",
+      "card": "12px",
+      "image": "8px",
+      "round": "50%"
+    }
+  },
+  "imagery": {
+    "style": [
+      "real clinic and care team photos first",
+      "real men in everyday Virginia settings: outdoors, active, candid",
+      "local landmarks: Richmond skyline, Newport News City Center, Virginia Beach oceanfront",
+      "natural light, warm, confident, not clinical cliche"
+    ],
+    "treatment": "rounded corners 8px or 1.25rem, full color, no heavy filters",
+    "badges": [
+      "LegitScript",
+      "CLIA",
+      "HIPAA"
+    ],
+    "rules": [
+      "member photos or stories only with written consent and signed release",
+      "no before and after",
+      "no product, needle or vial close-ups",
+      "descriptive alt text on every image"
+    ]
+  },
+  "voice": {
+    "traits": [
+      "clear and plain",
+      "process-first",
+      "clinically careful",
+      "respectful and private",
+      "transparent",
+      "local"
+    ],
+    "examples": [
+      {
+        "text": "A full hour, face to face",
+        "source": "https://menswellnesscenters.com/"
+      },
+      {
+        "text": "Your labs, explained",
+        "source": "https://menswellnesscenters.com/"
+      },
+      {
+        "text": "Treatment is offered only when medically appropriate.",
+        "source": "https://menswellnesscenters.com/"
+      },
+      {
+        "text": "Private, in-person visit.",
+        "source": "https://menswellnesscenters.com/"
+      },
+      {
+        "text": "No referral needed.",
+        "source": "https://menswellnesscenters.com/"
+      },
+      {
+        "text": "Care you can understand.",
+        "source": "https://menswellnesscenters.com/about-us/"
+      },
+      {
+        "text": "An evaluation before a treatment plan.",
+        "source": "https://menswellnesscenters.com/about-us/"
+      },
+      {
+        "text": "Men's health care. Meet the people behind it.",
+        "source": "https://menswellnesscenters.com/about-us/"
+      }
+    ],
+    "avoid": [
+      "ALL CAPS headlines",
+      "hype such as 'proven results'",
+      "jargon",
+      "pushy urgency"
+    ]
+  },
+  "terminology": {
+    "use": {
+      "members": "not patients, clients, customers",
+      "clinic": "not office, facility, practice",
+      "provider": "licensed provider; physician only for MD or DO",
+      "first visit / appointment": "not consult or consultation",
+      "just $60": "first visit price",
+      "when medically appropriate": "pair with any treatment mention",
+      "Eric O'Brien, President": "never founder",
+      "men": "not guys"
+    },
+    "service_names": [
+      "Testosterone Therapy (TRT)",
+      "Testosterone Replacement Therapy (TRT)",
+      "ED Treatment",
+      "ED care",
+      "Medical Weight Loss",
+      "Testosterone testing"
+    ],
+    "banned": [
+      "free",
+      "no-cost",
+      "complimentary",
+      "guaranteed",
+      "cure",
+      "proven results",
+      "best",
+      "#1",
+      "founder",
+      "patients (in marketing)",
+      "any medication name",
+      "em dash"
+    ]
+  },
+  "compliance": {
+    "first_visit": "just $60 for a 60-minute in-person visit; never free or no-cost",
+    "drug_names": "never in marketing, ads, social, email or SMS",
+    "phi": "never; aggregate de-identified data only; no small cells",
+    "claims": "no guarantees or cure claims; substantiate every outcome, speed or comparison claim",
+    "testimonials": "written consent required; releases for likeness; show 'Individual experiences. Results vary.'",
+    "credentials": "describe each clinician accurately",
+    "messaging": "honor DND and STOP; send 9am to 8pm ET only",
+    "punctuation": "no em dashes"
+  },
+  "cta": {
+    "primary": {
+      "label": "Book My Appointment",
+      "style": "orange pill",
+      "destination": "on-site appointment request, then https://book.menswellnesscenters.com"
+    },
+    "secondary": {
+      "label": "Call Now",
+      "tel": "+18663444955"
+    },
+    "form_submit": "See available times",
+    "mobile_sticky": "Book Visit",
+    "price_line": "Your first visit is just $60: a full hour, in person, with on-site labs.",
+    "avoid": [
+      "Get started",
+      "Learn more",
+      "Submit",
+      "Click here",
+      "Book a Consultation"
+    ],
+    "booking_url": "https://book.menswellnesscenters.com"
+  },
+  "phones": {
+    "main_cta": {
+      "number": "866-344-4955",
+      "tel": "+18663444955",
+      "note": "verify before each new use"
+    },
+    "richmond": "804-346-4636",
+    "newport_news": "757-806-6263",
+    "virginia_beach": "757-612-4428",
+    "source": "https://menswellnesscenters.com/ footer and header"
+  },
+  "locations": [
+    {
+      "name": "Richmond",
+      "address": "4050 Innslake Dr, Suite 360, Glen Allen, VA 23060-3323",
+      "phone": "804-346-4636",
+      "url": "https://menswellnesscenters.com/locations/richmond/"
+    },
+    {
+      "name": "Newport News",
+      "address": "827 Diligence Drive, Suite 206, Newport News, VA 23606-4268",
+      "phone": "757-806-6263",
+      "url": "https://menswellnesscenters.com/locations/newport-news/"
+    },
+    {
+      "name": "Virginia Beach",
+      "address": "996 First Colonial Rd, Virginia Beach, VA 23454-3175",
+      "phone": "757-612-4428",
+      "url": "https://menswellnesscenters.com/locations/virginia-beach/"
+    }
+  ]
+}
